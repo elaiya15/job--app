@@ -1,0 +1,135 @@
+
+.css-0{
+margin-top: 100px;
+    height: 100vh;
+    margin-right:100px ;
+    padding: 0;
+}
+.main{
+    margin-top: 10px;
+    display: flex;
+flex-direction: column;
+    align-items: center;
+}
+.singup{ 
+
+    font-family: Maven Pro;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align:center;
+    
+
+    text-align: center;
+}
+.MuiBox-root{
+    margin-left: 100px;
+}
+
+.user{
+   justify-content: center;
+  
+    top: 10px;
+    padding-top:20px ;
+    width: 70%;
+    align-items: center;
+display: flex;
+flex-direction: row;
+
+column-gap: 10px;
+row-gap: 40px;
+flex-wrap:wrap;
+
+}
+.i1{  
+    position: absolute;
+   margin-top: 20px;
+
+    
+    size-adjust: 10px;
+}
+.i2{
+    size-adjust: 10px;
+    width: 100px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.i3{
+    size-adjust: 10px;
+    width: 100px;
+   
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 1px;
+}
+.i4{
+    size-adjust: 10px;
+    width: 100px;
+   margin-left: 40px;
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.i5{
+    size-adjust: 10px;
+    width: 100px;
+  
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 1px;
+}
+.i6{
+    position: relative;
+    size-adjust: 10px;
+    width: 100px;
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 1px;
+}
+.eye1{
+    margin-top: 15px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.button{
+
+
+  width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+   
+   
+}
+.sing{
+    
+font-size: 18px;
+font-weight: 500;
+line-height: 31px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.PhoneNumber{
+    column-gap: 20px;
+    width: 25ch;
+    margin-top: 19px;
+    height: 48px;
+}
+.ab{
+    color: rgb(1, 61, 139);
+    font-size: 15px;
+font-weight: 600;
+line-height: 45px;
+text-align: center;
+text-decoration: none;
+}
+.ab:hover{
+    text-decoration: underline;
+
+}
