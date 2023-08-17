@@ -168,17 +168,17 @@ const logout=()=>{
 <div className="featuredCompaniesBody">
 <ul className="featuredCompaniesList">
 <li className="featured-companies-li-wrapper">
-<a href="https://www.naukri.com/job-listings-excellent-openings-for-ar-calling-work-from-home-at-vellore-global-healthcare-billing-partners-vellore-tamil-nadu-1-to-3-years-280723005818" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="Global Healthcare Billing Partners" src="https://img.naukimg.com/fc_images/v2/4055006.gif"/>
+<a href="" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="Global Healthcare Billing Partners" src="https://img.naukimg.com/fc_images/v2/4055006.gif"/>
 </a></li><li className="featured-companies-li-wrapper">
-<a href="https://www.naukri.com/concentrix-catalyst-jobs-careers-196760?keyword=remote&amp;src=fcc&amp;companyId=196760" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="Concentrix Catalyst" src="https://img.naukimg.com/fc_images/v2/196760.gif"/>
-</a></li><li className="featured-companies-li-wrapper"><a href="https://www.naukri.com/gavs-technologies-jobs-careers-15001?keyword=remote&amp;src=fcc&amp;companyId=15001" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="Gavs Technologies" src="https://img.naukimg.com/fc_images/v2/15001.gif"/></a>
-</li><li className="featured-companies-li-wrapper"><a href="https://www.naukri.com/sierra-cedar-jobs-careers-294009?keyword=remote&amp;src=fcc&amp;companyId=294009" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="Sierra-cedar" src="https://img.naukimg.com/fc_images/v2/294009.gif"/></a>
-</li><li className="featured-companies-li-wrapper"><a href="https://www.naukri.com/tech-mahindra-jobs-careers-1066?keyword=remote&amp;src=fcc&amp;companyId=100007" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="Tech Mahindra" src="https://img.naukimg.com/fc_images/v2/100007.gif"/></a>
-</li><li className="featured-companies-li-wrapper"><a href="https://www.naukri.com/alorica-jobs-careers-4870436?keyword=remote&amp;src=fcc&amp;companyId=5271592" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="Alorica" src="https://img.naukimg.com/fc_images/v2/5271592.gif"/></a>
-</li><li className="featured-companies-li-wrapper"><a href="https://www.naukri.com/iqvia-jobs-careers-314023?keyword=remote&amp;src=fcc&amp;companyId=314023" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="IQVIA" src="https://img.naukimg.com/fc_images/v2/314023.gif"/></a>
-</li><li className="featured-companies-li-wrapper"><a href="https://www.naukri.com/affinityx-jobs-careers-770390?keyword=remote&amp;src=fcc&amp;companyId=3122282" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="AffinityX" src="https://img.naukimg.com/fc_images/v2/3122282.gif"/></a>
-</li><li className="featured-companies-li-wrapper"><a href="https://www.naukri.com/job-listings-program-specialist-voice-process-fortrea-bangalore-bengaluru-1-to-2-years-040823008355" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="Fortrea Development India" src="https://img.naukimg.com/fc_images/v2/3895210.gif"/></a>
-</li><li className="featured-companies-li-wrapper"><a href="https://www.naukri.com/job-listings-hiring-for-architect-react-mphasis-india-9-to-14-years-260723006108" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="Mphasis" src="https://img.naukimg.com/fc_images/v2/144993.gif"/></a>
+<a href="" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="Concentrix Catalyst" src="https://img.naukimg.com/fc_images/v2/196760.gif"/>
+</a></li><li className="featured-companies-li-wrapper"><a href="" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="Gavs Technologies" src="https://img.naukimg.com/fc_images/v2/15001.gif"/></a>
+</li><li className="featured-companies-li-wrapper"><a href="" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="Sierra-cedar" src="https://img.naukimg.com/fc_images/v2/294009.gif"/></a>
+</li><li className="featured-companies-li-wrapper"><a href="" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="Tech Mahindra" src="https://img.naukimg.com/fc_images/v2/100007.gif"/></a>
+</li><li className="featured-companies-li-wrapper"><a href="" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="Alorica" src="https://img.naukimg.com/fc_images/v2/5271592.gif"/></a>
+</li><li className="featured-companies-li-wrapper"><a href="" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="IQVIA" src="https://img.naukimg.com/fc_images/v2/314023.gif"/></a>
+</li><li className="featured-companies-li-wrapper"><a href="" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="AffinityX" src="https://img.naukimg.com/fc_images/v2/3122282.gif"/></a>
+</li><li className="featured-companies-li-wrapper"><a href="" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="Fortrea Development India" src="https://img.naukimg.com/fc_images/v2/3895210.gif"/></a>
+</li><li className="featured-companies-li-wrapper"><a href="" target="_blank" rel="noreferrer"><img className="featuredCompanyImage" alt="Mphasis" src="https://img.naukimg.com/fc_images/v2/144993.gif"/></a>
 </li></ul></div>
 </section>
 
