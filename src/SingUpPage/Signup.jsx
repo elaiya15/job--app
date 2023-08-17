@@ -49,7 +49,7 @@ const handleSubmit= async (e)=>{
 
 console.log(FormData);
  // eslint-disable-next-line no-unused-vars
- const data = await axios.post("http://localhost:8009/register",{
+ const data = await axios.post("https://job-search-web.onrender.com/register",{
   ...FormData,number:value
    });
  SetValue("")
