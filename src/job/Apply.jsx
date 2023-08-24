@@ -17,7 +17,7 @@ const navigate= useNavigate()
       {Data.map((v)=>(  <section className="jd-header"> 
 
       <div className="top">
-       <div className="jd-top-head" key={v.id} >
+       <div className="jd-top-head"key={v.id} >
       <h2 className="title">{v.title}</h2>
       <div className="subtitle">
       <span className="sub1">{v.subtitle}</span> 

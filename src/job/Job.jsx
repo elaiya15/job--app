@@ -62,7 +62,7 @@ const Job = () => {
             <p  className="pe">KeySkills:<span> {item.KeySkills}</span></p>
          </div>
          <div className="about">
-          Adout:<span className="about-span"> {item.About}</span>
+          About:<span className="about-span"> {item.About}</span>
          </div>
          </div>
     </>

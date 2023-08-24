@@ -1,42 +1,31 @@
 
-.css-0{
-margin-top: 100px;
-    height: 100vh;
-    margin-right:100px ;
-    padding: 0;
-}
+
 .main{
     margin-top: 10px;
     display: flex;
 flex-direction: column;
     align-items: center;
-}
-.singup{ 
-
-    font-family: Maven Pro;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 47px;
-    letter-spacing: 0em;
-    text-align:center;
+   
     
-
-    text-align: center;
+  
+   
 }
-.MuiBox-root{
-    margin-left: 100px;
+.h1{ 
+    
+  padding-left: 55px;
+    margin-top: 80px;
+    text-align: center;
 }
 
 .user{
-   justify-content: center;
   
+   
     top: 10px;
-    padding-top:20px ;
-    width: 70%;
+justify-content: center;
     align-items: center;
 display: flex;
 flex-direction: row;
-
+width:50%;
 column-gap: 10px;
 row-gap: 40px;
 flex-wrap:wrap;
@@ -67,10 +56,10 @@ flex-wrap:wrap;
 .i4{
     size-adjust: 10px;
     width: 100px;
-   margin-left: 40px;
+   
     position: absolute;
     margin-top: 20px;
-    margin-right: 5px;
+    margin-right: 1px;
 }
 .i5{
     size-adjust: 10px;
@@ -95,19 +84,21 @@ flex-wrap:wrap;
 }
 
 .button{
-
-
-  width: 100%;
+width: 100%;
     margin-top: 50px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    column-gap: 20px;
-   
-   
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;  
 }
+
+.css-1fmiv8f-MuiButtonBase-root-MuiButton-root {
+    width: max-content;
+}
+
+
+
 .sing{
-    
 font-size: 18px;
 font-weight: 500;
 line-height: 31px;

@@ -49,7 +49,7 @@ const handleSubmit= async (e)=>{
 
 console.log(FormData);
  // eslint-disable-next-line no-unused-vars
- const data = await axios.post("https://job-search-web.onrender.com/register",{
+ const data = await axios.post("http://localhost:4001/register/signup",{
   ...FormData,number:value
    });
  SetValue("")
@@ -69,51 +69,47 @@ console.log(FormData);
   return (
     <>
     <Container fluid="md">
+    <h1 className="h1" >Sign-up</h1>
+  <Box   onSubmit={(e)=>handleSubmit(e)} component="form"  sx={{ }} validate="true"  autoComplete="off">
+  <div className="main">
+    <div className="user">
     
-      
-    <Box   onSubmit={(e)=>handleSubmit(e)} component="form"  sx={{ }} validate="true"  autoComplete="off">
-      <h1 className="singup"  >Singup</h1>
-    <div className="main">
-      <div className="user">
-      
-     <span> <PersonIcon className="i1"/>
-  <TextField sx={ {ml:4}}   id="standard-basic" label="FirstName" type="FirestName" variant="standard" required  value={FormData.firstname} onChange={(e)=>SetFormData({...FormData,firstname: e.target.value})} /> </span>
-  <span> <PersonIcon className="i2"/>
-   <TextField sx={ {ml:4}} id="standard-basic"  label="LastName" type="LastName" variant="standard" required value={FormData.lastname} onChange={(e)=>SetFormData({...FormData,lastname: e.target.value})} />    </span>
-   <span>
+   <span> <PersonIcon className="i1"/>
+<TextField sx={ {ml:4}}   id="standard-basic" label="FirstName" type="FirestName" variant="standard" required  value={FormData.firstname} onChange={(e)=>SetFormData({...FormData,firstname: e.target.value})} /> </span>
+<span> <PersonIcon className="i2"/>
+ <TextField sx={ {ml:4}} id="standard-basic"  label="LastName" type="LastName" variant="standard" required value={FormData.lastname} onChange={(e)=>SetFormData({...FormData,lastname: e.target.value})} />    </span>
+ <span>
 <PhoneInput
 className="PhoneNumber"
-  defaultCountry="IN"
-  placeholder="Enter phone number"
-  // eslint-disable-next-line no-undef
-  value={value}
-  required
-  onChange={SetValue}/>
-    </span> 
-  <span> <MailOutlineIcon className="i4"/>
-   <TextField sx={ {ml:9}} id="standard-basic"  label="Email" type="email" variant="standard" required value={FormData.email} onChange={(e)=>SetFormData({...FormData, email: e.target.value})}/>  </span>       
-   <span> <LocationCityIcon className="i5"/>
-  <TextField  sx={ {ml:4} }id="standard-basic"  label="City" type="city" variant="standard" required value={FormData.city} onChange={(e)=>SetFormData({...FormData, city: e.target.value})}/>   </span>         
-  <span> <HttpsIcon className="i6"/>
+defaultCountry="IN"
+placeholder="Enter phone number"
+// eslint-disable-next-line no-undef
+value={value}
+required
+onChange={SetValue}/>
+  </span> 
+<span> <MailOutlineIcon className="i4"/>
+ <TextField sx={ {ml:4}} id="standard-basic"  label="Email" type="email" variant="standard" required value={FormData.email} onChange={(e)=>SetFormData({...FormData, email: e.target.value})}/>  </span>       
+ <span> <LocationCityIcon className="i5"/>
+<TextField  sx={ {ml:4} }id="standard-basic"  label="City" type="city" variant="standard" required value={FormData.city} onChange={(e)=>SetFormData({...FormData, city: e.target.value})}/>   </span>         
+<span> <HttpsIcon className="i6"/>
 
-  <TextField sx={{ ml:4}}id="standard"  label="Password" type={(open===true)?"password":"text"} variant="standard" value={FormData.password} required   onChange={(e)=>SetFormData({...FormData, password: e.target.value})}/>
-     <span className="eye1"> { (open === true)?<VisibilityOffIcon onClick={toggle}/> :<VisibilityIcon onClick={toggle}/> }   </span> </span>  
-    </div>
-   
-    <div className="button">
+<TextField sx={{ ml:4}}id="standard"  label="Password" type={(open===true)?"password":"text"} variant="standard" value={FormData.password} required   onChange={(e)=>SetFormData({...FormData, password: e.target.value})}/>
+   <span className="eye1"> { (open === true)?<VisibilityOffIcon onClick={toggle}/> :<VisibilityIcon onClick={toggle}/> }   </span> </span>  
+  </div>
+ 
+  <div className="button">
+  
+  <Button  sx={{ ml:5}}variant="contained" disableElevation type="submit" >
+    Signup
+  </Button> 
+  <div className="sing">  Already a member? <a className="ab"href="/">Signin </a> </div>
+  </div>
+  </div>
+  </Box>
+  </Container>
+
     
-    <Button  sx={{ ml:5}}variant="contained" disableElevation type="submit" >
-      Singup
-    </Button> 
-    <div className="sing">  Already a member? <a className="ab"href="/">Singin </a> </div>
-    </div>
-    </div>
-    </Box>
-
-    
-   
-    </Container>
-
   
 </>
   )

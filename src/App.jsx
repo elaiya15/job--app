@@ -8,6 +8,7 @@ import Job from './job/Job.jsx';
 import Apply from './job/Apply.jsx';
 import Button from '@mui/material/Button'
 import{useNavigate} from "react-router-dom"; 
+
 function App() {
   const navigate = useNavigate();
   
@@ -18,8 +19,9 @@ const logout=()=>{
 }
   
   return (
-    <><div className="icon" onClick={logout}> <FontAwesomeIcon icon={faRightFromBracket} size="lg"/> </div>
+    <div className="maindiv">
       <div className="qsb-header-container">
+    <div className="icon" onClick={logout}> <FontAwesomeIcon icon={faRightFromBracket} size="lg"/> logout</div>
         <h1 className="qsb-title">Find your dream job now</h1>
         <div className="qsb-byLine">5 lakh+ jobs for you to explore</div>
       </div>
@@ -189,7 +191,8 @@ const logout=()=>{
 
 </div>
 
-      </>
+
+      </div>
   );
 }
 

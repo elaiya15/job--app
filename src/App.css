@@ -1,4 +1,9 @@
-body {
+.maindiv {
+  
+ position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
   font-family: "Inter";
   font-weight: 400;
   font-size: 14px;
@@ -7,25 +12,29 @@ body {
   padding: 0;
   box-sizing: border-box;
   color: #1b2437;
-  /* background-color: #f5f4fa; */
+  position: relative;
+  background-color: #f5f4fa;
  
 }
 .icon{
   cursor: pointer;
-  padding-top: 30px;
-  font-size: 26px;
-  position: absolute;
-  left: 1124px;
+  font-size: 29px;
+  position:absolute;
+  /* background-color: aqua; */
+left: 0px;
+top: 50px;
 
 }
 
 .qsb-header-container {
+
+min-width: 300px;
   padding: 70px 0 39px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-
   background: linear-gradient(180deg,#f5f4fa,rgba(251,251,253,0));
 }
 .qsb-header-container .qsb-byLine {
@@ -38,11 +47,12 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  position: relative;
  
 }
 .search{ 
- 
-  width: 400px;
+ max-width: 400px;
+ min-width: 320px;
   height: 5ch;
  text-align: center;
   font-size: large;
@@ -62,35 +72,32 @@ right: 100px;
 
 }
 .faMagnifyingGlass{
-position: absolute;
+position: relative;
 color: rgb(6, 189, 189);
-top: 250px;
-left: 35ch;
+top: 15px;
+left: 8ch;
 font-size: 25px;
 }
 
 h2 {
   display: block;
   font-size: 1.9em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
   font-weight: bold;
 } 
 
 .cardhead{
   margin-top: 30px;
-  margin-left:200px;
-  position: relative;
-gap: 20px;
-  width: 900px;
+
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+ row-gap: 20px;
+ column-gap: 20px;
   justify-content: center;
-  align-items: center;
-  height: auto;
+  align-items: start;
+  flex-wrap: wrap;
+min-width: 600px;
+
+
+ 
   
 }
 .remote{
@@ -105,6 +112,7 @@ width: 170px;
     height: 70px;
     display: flex;
     align-items: center;
+    justify-content: center;
     box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #E7E7F1;
@@ -131,12 +139,13 @@ width: 170px;
   .top{
 display: flex;
 flex-direction: row;
-
-
-flex-wrap: nowrap;
+min-width:564px;
+max-width: 1250px;
+overflow: hidden;
+flex-wrap:wrap;
 column-gap: 3ch;
-
-
+justify-content: center;
+align-items: center;
   }
   .industry-name {
     
@@ -231,13 +240,14 @@ a {
   border-radius: 20px;
   margin-bottom: 16px;
 }
+
 .featuredCompaniesContainer {
   margin-top: 20px;
   padding: 20px 20px 20px 10px!important;
   border: 1px solid #e7e7f1;
   border-radius: 10px!important;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 230px;
+  margin-left: 7px;
 }
 .featuredCompaniesHeader p {
   font-size: 14px;
@@ -247,27 +257,37 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
-  margin-left: 10px;
   margin-bottom: 12px;
   color: #121224;
 }
 .featuredCompaniesContainer .featuredCompaniesBody .featuredCompaniesList {
-  width: 208px;
+  padding: 0px;
 }
+
 .featuredCompaniesContainer .featuredCompaniesBody .featured-companies-li-wrapper {
-  list-style-type: none;
   display: inline-block;
   border: 1px solid #e7e7f1;
   border-radius: 10px;
   margin-top: 3px;
-  margin-left: 5px;
   overflow: hidden;
   position: relative;
-  width: 120px;
   height: 46px;
 }
 .list{
   display: flex;
   flex-direction: row;
-  column-gap: 150px;
+justify-content:space-between ;
+}
+.job{
+right: 100px;
+}
+@media only screen and (max-width: 730px) {
+ .featuredCompaniesContainer{ 
+  display: none;
+ }
+
+ .maindiv {
+ max-width: 500px;
+ min-width: 600px;
+}
 }

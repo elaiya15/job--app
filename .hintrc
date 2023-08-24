@@ -9,9 +9,17 @@
       {
         "ignore": [
           "font-synthesis",
-          "-webkit-text-size-adjust"
+          "-webkit-text-size-adjust",
+          "width: fit-content"
         ]
       }
-    ]
-  }
+    ],
+    "meta-viewport": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 113",
+    "not firefox <= 113"
+  ]
 }

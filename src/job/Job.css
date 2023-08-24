@@ -1,16 +1,8 @@
-body{
-    background: linear-gradient(180deg,#f5f4fa,rgba(251,251,253,0));
-    /* background-color: burlywood; */
-    margin: 0;
-padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
+
 .headclass{
-    flex-direction: column;
-    margin-top: 50px;
-    margin-left: 80px;
-    width: 1180px;
-    height: max-content;
+    margin-top: 80px;
+   padding-left: 5px;
 }
 
 
@@ -174,7 +166,6 @@ padding: 0;
 .about{
     background-color: #fff;
     margin-top: 16px;
-    -webkit-box-shadow: 0 6px 12px rgba(30,10,58,.04);
     box-shadow: 0 6px 12px rgba(30,10,58,.04);
     border-radius: 20px;
     padding-bottom: 30px;
@@ -190,3 +181,12 @@ padding: 0;
     line-height: 18px;
     color:#474d6a;
 }
+@media only screen and (max-width: 600px) {
+    .job-des{
+        width: 600px;
+    }
+    .about{
+        width: 600px;
+    }
+
+   }

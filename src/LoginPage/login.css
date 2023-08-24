@@ -1,89 +1,43 @@
-*{
-   
-    box-sizing: border-box;
-    font-family: "popping",sans-serif;
-  
-    
-}
-.container-md{
-    position: relative;
-    left: 80px;
-   
-    height: 100vh;
-    width: 1200px;
-    
-}
-.css-1cfa7ym{
-    margin-right: 100px;
-    height: 80vh;
-  margin-top: 100px;
-
- 
 
 
-}
-.pass{
-    display: block;
-    position: fixed;
-    padding-left: 80px;
-    top: 220px;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 20px;
-}
-.id{
-    font-size: 17px;
-font-weight: 400;
-line-height: 20px;
-    display: block;
-    position: fixed;
-    padding-left: 70px;
-    top: 200px;
-}
 
 .main2{
-   
-   
+    background: linear-gradient(180deg,#f5f4fa,rgba(251,251,253,0));
+    height: 100vh;
+    font-family: "popping",sans-serif;
     display: flex;
     flex-direction: column;
-    
-  
+    align-items: center;   
+   
 }
 .head{
+    height: 55vh;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
-   
     
 }
 
-.singin{
-    font-family: Maven Pro;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 47px;
-    letter-spacing: 0em;
+.h1{
     text-align: center;
-    margin-bottom: 10px;
-    
-text-align: center;
+    padding-right: 80px;
 }
 .start{
-   
-    padding-left: 55px;
-
+    
+    margin-top: 10px;
     font-family: Maven Pro;
 font-size: 20px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0em;
-text-align: center;
+
 width: 235px;
 
 top: 282.94287109375px;
-left: 583.5px;
 
-/* text-align: center; */
+padding-right: 20px;
+text-align: center;
 }
 .contain{
    
@@ -94,6 +48,7 @@ left: 583.5px;
     
 }
 .text{
+    padding-left: 30px;
     position: relative;
     
 }
@@ -105,17 +60,15 @@ left: 583.5px;
    
 }
 .bt{
-    width: 200px;
-padding-left: 50px;
-}
-.sing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-   left: 20px; 
 }
-.ac{  position: relative;
-    bottom: 37px;
+.ac{  
+    bottom: 31px;
     color: rgb(1, 61, 139);
-    left: 130px;
+    left: 120px;
     font-family: Maven Pro;
 font-size: 19px;
 font-weight: 600;
@@ -128,3 +81,12 @@ text-decoration: none;
 
 }
 
+.id{
+    position: absolute;
+    top: 180px;
+}
+.pass{
+    position: absolute;
+    top: 205px;
+
+}

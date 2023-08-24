@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import Job from './job/Job.jsx';
 import Signup from './SingUpPage/Signup'
 import Login from './LoginPage/Login.jsx';
+import  Loder from './loder.jsx'
 const roter = () => {
   return (
    <>
@@ -14,6 +15,7 @@ const roter = () => {
    <Route path="/job/:id" element={<Job/>} />
    <Route path="/Signup" element={<Signup/>} />
    <Route path="/" element={<Login/>} />
+   <Route path="/loder" element={<Loder/>} />
   </Routes>
 
     </>
