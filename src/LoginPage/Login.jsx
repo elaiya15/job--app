@@ -49,8 +49,8 @@ const handleSubmit = async(e)=>{
     if(response.data){
       // console.log(response.data);
       localStorage.setItem("token",response.data);
-      navigate("/home");
       SetLoad(!true)
+      navigate("/home");
 
 }
 }
