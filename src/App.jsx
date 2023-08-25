@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 // eslint-disable-next-line no-unused-vars
-import React, { useState } from "react";
+import React, {useEffect,useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faMagnifyingGlass,faRightFromBracket} from '@fortawesome/free-solid-svg-icons';
 import "./App.css"
@@ -8,12 +8,19 @@ import Job from './job/Job.jsx';
 import Apply from './job/Apply.jsx';
 import Button from '@mui/material/Button'
 import{useNavigate} from "react-router-dom"; 
+// import jwt from 'jsonwebtoken'
 
 function App() {
   const navigate = useNavigate();
+  useEffect(() => {
+   const auth=localStorage.getItem("token")
+  if (!auth){
+        return navigate("/")
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  },[]);
   
 const logout=()=>{
-
   localStorage.removeItem("token")
   navigate("/")
 }

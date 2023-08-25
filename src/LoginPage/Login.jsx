@@ -49,7 +49,7 @@ const handleSubmit = async(e)=>{
     if(response.data){
       // console.log(response.data);
       localStorage.setItem("token",response.data);
-      SetLoad(!true)
+      SetLoad(!true) 
       navigate("/home");
 
 }
